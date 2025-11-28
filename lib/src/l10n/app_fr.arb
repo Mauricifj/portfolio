@@ -1,0 +1,54 @@
+{
+  "@@locale": "fr",
+  "app_title": "Portfolio Mauricifj",
+  "app_description": "Site Web de Portfolio Personnel",
+
+  "aboutMe_title": "À Propos",
+  "aboutMe_heroGreeting": "Bonjour, je suis",
+  "aboutMe_heroIntro": "Un développeur passionné créant de belles expériences numériques.",
+
+  "experience_title": "Expérience",
+  "experience_roleLabel": "Rôle",
+  "experience_companyLabel": "Entreprise",
+  "experience_durationLabel": "Durée",
+  "experience_technologiesLabel": "Technologies",
+
+  "education_title": "Éducation",
+
+  "projects_title": "Projets",
+  "projects_viewProjectButton": "Voir le Projet",
+
+  "contact_title": "Contact",
+
+  "settings_languageTitle": "Changer de langue",
+  "settings_languageCurrent": "Français",
+  "settings_themeTitle": "Changer de thème",
+  "settings_themeSystem": "Système",
+  "settings_themeLight": "Clair",
+  "settings_themeDark": "Sombre",
+
+  "common_present": "Aujourd'hui",
+  "common_errorLaunchUrl": "Oups ! Je n'ai pas pu ouvrir ce lien. Voici l'URL : {url}",
+  "@common_errorLaunchUrl": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    },
+    "description": "Message d'erreur lorsqu'une URL ne peut pas être ouverte"
+  },
+  "common_errorLoading": "Une erreur s'est produite lors du chargement du contenu. Veuillez réessayer plus tard.",
+
+  "language_english": "English",
+  "language_portuguese": "Português",
+  "language_french": "Français",
+  "language_spanish": "Español",
+  "language_german": "Deutsch",
+
+  "share_button_tooltip": "Partager cette page",
+  "share_title": "Découvrez mon portfolio !",
+  "share_text": "Découvrez mon portfolio sur mauricifj.dev",
+  "app_store_button_tooltip": "Télécharger sur l'App Store",
+  "play_store_button_tooltip": "Disponible sur Google Play",
+  "coming_soon_message": "Bientôt disponible ! Restez à l'écoute pour l'application mobile."
+}

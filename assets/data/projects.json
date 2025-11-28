@@ -1,0 +1,112 @@
+[
+  {
+    "title": {
+      "en": "Personal Portfolio",
+      "pt": "Portfólio Pessoal",
+      "fr": "Portfolio Personnel",
+      "es": "Portafolio Personal",
+      "de": "Persönliches Portfolio"
+    },
+    "description": {
+      "en": "A responsive portfolio website built with Flutter Web to showcase my skills and experience. Features a modern design, smooth animations, and multi-language support.",
+      "pt": "Um site de portfólio responsivo construído com Flutter Web para mostrar minhas habilidades e experiência. Possui design moderno, animações suaves e suporte a vários idiomas.",
+      "fr": "Un site web de portfolio réactif construit avec Flutter Web pour présenter mes compétences et mon expérience. Dispose d'un design moderne, d'animations fluides et d'un support multilingue.",
+      "es": "Un sitio web de portafolio receptivo construido con Flutter Web para mostrar mis habilidades y experiencia. Cuenta con un diseño moderno, animaciones fluidas y soporte multilingüe.",
+      "de": "Eine responsive Portfolio-Website, die mit Flutter Web erstellt wurde, um meine Fähigkeiten und Erfahrungen zu präsentieren. Verfügt über ein modernes Design, flüssige Animationen und mehrsprachige Unterstützung."
+    },
+    "technologies": [
+      "flutter",
+      "dart",
+      "web"
+    ],
+    "link": "https://github.com/Mauricifj/portfolio"
+  },
+  {
+    "title": {
+      "en": "Countries App",
+      "pt": "Countries App",
+      "fr": "Countries App",
+      "es": "Countries App",
+      "de": "Countries App"
+    },
+    "description": {
+      "en": "A Flutter app that displays information about countries using the REST Countries API. Features search functionality, filtering by region, and dark mode.",
+      "pt": "Um aplicativo Flutter que exibe informações sobre países usando a API REST Countries. Possui funcionalidade de pesquisa, filtragem por região e modo escuro.",
+      "fr": "Une application Flutter qui affiche des informations sur les pays en utilisant l'API REST Countries. Dispose d'une fonctionnalité de recherche, d'un filtrage par région et d'un mode sombre.",
+      "es": "Una aplicación Flutter que muestra información sobre países utilizando la API REST Countries. Cuenta con funcionalidad de búsqueda, filtrado por región y modo oscuro.",
+      "de": "Eine Flutter-App, die Informationen über Länder mithilfe der REST Countries API anzeigt. Verfügt über Suchfunktionen, Filterung nach Region und Dunkelmodus."
+    },
+    "technologies": [
+      "flutter",
+      "dart",
+      "apiIntegration"
+    ],
+    "link": "https://github.com/Mauricifj/countries_app"
+  },
+  {
+    "title": {
+      "en": "Top Up App",
+      "pt": "Top Up App",
+      "fr": "Top Up App",
+      "es": "Top Up App",
+      "de": "Top Up App"
+    },
+    "description": {
+      "en": "Flutter application for mobile phone top-ups.",
+      "pt": "Aplicativo Flutter para realizar recargas de celular.",
+      "fr": "Application Flutter pour effectuer des recharges de téléphone mobile.",
+      "es": "Aplicación Flutter para realizar recargas de teléfono móvil.",
+      "de": "Flutter-Anwendung zum Aufladen von Mobiltelefonen."
+    },
+    "technologies": [
+      "flutter",
+      "dart",
+      "apiIntegration"
+    ],
+    "link": "https://github.com/Mauricifj/top_up_app"
+  },
+  {
+    "title": {
+      "en": "Multiple Universe Superheroes",
+      "pt": "Multiple Universe Superheroes",
+      "fr": "Multiple Universe Superheroes",
+      "es": "Multiple Universe Superheroes",
+      "de": "Multiple Universe Superheroes"
+    },
+    "description": {
+      "en": "A mobile app that lists superheroes from different universes. Built with Flutter and Clean Architecture, demonstrating separation of concerns and testable code.",
+      "pt": "Um aplicativo móvel que lista super-heróis de diferentes universos. Construído com Flutter e Clean Architecture, demonstrando separação de responsabilidades e código testável.",
+      "fr": "Une application mobile qui répertorie les super-héros de différents univers. Construit avec Flutter et Clean Architecture, démontrant la séparation des responsabilités et le code testable.",
+      "es": "Una aplicación móvil que lista superhéroes de diferentes universos. Construida con Flutter y Clean Architecture, demostrando separación de responsabilidades y código comprobable.",
+      "de": "Eine mobile App, die Superhelden aus verschiedenen Universen auflistet. Erstellt mit Flutter und Clean Architecture, demonstriert Trennung der Verantwortlichkeiten und testbaren Code."
+    },
+    "technologies": [
+      "flutter",
+      "cleanArchitecture",
+      "mobile"
+    ],
+    "link": "https://github.com/Mauricifj/multiple_universe_superheroes"
+  },
+  {
+    "title": {
+      "en": "Cielo Lio Helper",
+      "pt": "Cielo Lio Helper",
+      "fr": "Cielo Lio Helper",
+      "es": "Cielo Lio Helper",
+      "de": "Cielo Lio Helper"
+    },
+    "description": {
+      "en": "A Flutter plugin for integrating with Cielo Lio V2 payment terminals, enabling transaction processing, receipt printing, and device management.",
+      "pt": "Um plugin Flutter para integração com terminais de pagamento Cielo Lio V2, permitindo processamento de transações, impressão de recibos e gerenciamento de dispositivos.",
+      "fr": "Un plugin Flutter pour l'intégration avec les terminaux de paiement Cielo Lio V2, permettant le traitement des transactions, l'impression de reçus et la gestion des appareils.",
+      "es": "Un plugin Flutter para integración con terminales de pago Cielo Lio V2, permitiendo procesamiento de transacciones, impresión de recibos y gestión de dispositivos.",
+      "de": "Ein Flutter-Plugin für die Integration mit Cielo Lio V2 Zahlungsterminals, ermöglicht Transaktionsverarbeitung, Belegdruck und Geräteverwaltung."
+    },
+    "technologies": [
+      "flutter",
+      "cleanArchitecture",
+      "mobile"
+    ],
+    "link": "https://github.com/Mauricifj/cielo_lio_helper"
+  }
+]

@@ -1,0 +1,264 @@
+[
+  {
+    "company": "Mauricifj LTDA",
+    "role": {
+      "en": "Software Engineer",
+      "pt": "Engenheiro de Software",
+      "fr": "Ingénieur logiciel",
+      "es": "Ingeniero de software",
+      "de": "Softwareingenieur"
+    },
+    "startDate": "2024-02-01",
+    "endDate": null,
+    "description": {
+      "en": "As a freelancer, I worked on various Flutter projects — from creating apps from scratch to improving existing codebases, adding new features, and fixing bugs. I focused on delivering scalable and well-structured solutions, applying S.O.L.I.D principles, Clean Architecture, and automated testing to ensure code quality. I collaborated with agile teams, maintaining clear communication and frequent deliveries, always aiming for the balance between performance, usability, and maintainability.",
+      "pt": "Como freelancer, trabalhei em vários projetos Flutter — desde a criação de aplicativos do zero até a melhoria de bases de código existentes, adicionando novos recursos e corrigindo bugs. Foquei na entrega de soluções escaláveis e bem estruturadas, aplicando princípios S.O.L.I.D, Clean Architecture e testes automatizados para garantir a qualidade do código. Colaborei com equipes ágeis, mantendo comunicação clara e entregas frequentes, sempre visando o equilíbrio entre desempenho, usabilidade e manutenibilidade.",
+      "fr": "En tant que freelance, j'ai travaillé sur divers projets Flutter — de la création d'applications à partir de zéro à l'amélioration de bases de code existantes, en ajoutant de nouvelles fonctionnalités et en corrigeant des bugs. Je me suis concentré sur la fourniture de solutions évolutives et bien structurées, en appliquant les principes S.O.L.I.D, Clean Architecture et des tests automatisés pour garantir la qualité du code. J'ai collaboré avec des équipes agiles, en maintenant une communication claire et des livraisons fréquentes, en visant toujours l'équilibre entre performance, convivialité et maintenabilité.",
+      "es": "Como freelancer, trabajé en varios proyectos Flutter — desde la creación de aplicaciones desde cero hasta la mejora de bases de código existentes, agregando nuevas funciones y corrigiendo errores. Me enfoqué en entregar soluciones escalables y bien estructuradas, aplicando principios S.O.L.I.D, Clean Architecture y pruebas automatizadas para garantizar la calidad del código. Colaboré con equipos ágiles, manteniendo una comunicación clara y entregas frecuentes, siempre apuntando al equilibrio entre rendimiento, usabilidad y mantenibilidad.",
+      "de": "Als Freelancer habe ich an verschiedenen Flutter-Projekten gearbeitet — von der Erstellung von Anwendungen von Grund auf bis zur Verbesserung vorhandener Codebasen, Hinzufügen neuer Funktionen und Beheben von Fehlern. Ich konzentrierte mich auf die Bereitstellung skalierbarer und gut strukturierter Lösungen unter Anwendung von S.O.L.I.D-Prinzipien, Clean Architecture und automatisierten Tests zur Sicherstellung der Codequalität. Ich arbeitete mit agilen Teams zusammen, pflegte klare Kommunikation und häufige Lieferungen und strebte immer das Gleichgewicht zwischen Leistung, Benutzerfreundlichkeit und Wartbarkeit an."
+    },
+    "location": {
+      "en": "Lisbon, Portugal",
+      "pt": "Lisboa, Portugal",
+      "fr": "Lisbonne, Portugal",
+      "es": "Lisboa, Portugal",
+      "de": "Lissabon, Portugal"
+    },
+    "locationType": "remote",
+    "technologies": [
+      "flutter",
+      "dart",
+      "apiRest",
+      "gcp",
+      "tdd",
+      "agile",
+      "git",
+      "e2e",
+      "cicd",
+      "ux",
+      "android",
+      "ios"
+    ]
+  },
+  {
+    "company": "Aya Healthcare",
+    "role": {
+      "en": "Software Engineer",
+      "pt": "Engenheiro de Software",
+      "fr": "Ingénieur logiciel",
+      "es": "Ingeniero de software",
+      "de": "Softwareingenieur"
+    },
+    "startDate": "2022-08-01",
+    "endDate": "2024-02-01",
+    "description": {
+      "en": "At Aya Healthcare, I was responsible for leading the development of mobile features for Flutter applications aimed at patients and healthcare professionals. This included creating complex UI flows, integrating RESTful APIs, and ensuring compliance with healthcare data privacy standards. I worked closely with designers and product managers to deliver intuitive experiences that improve the patient journey and optimize operational processes, while maintaining app performance and reliability at scale.",
+      "pt": "Na Aya Healthcare, fui responsável por liderar o desenvolvimento de recursos móveis para aplicativos Flutter voltados aos pacientes e profissionais de saúde. Isso incluiu criar fluxos complexos de interface do usuário, integrar APIs RESTful e garantir conformidade com os padrões de privacidade de dados de saúde. Trabalhei em estreita colaboração com designers e gerentes de produto para entregar experiências intuitivas que melhorem a jornada do paciente e otimizem os processos operacionais, mantendo o desempenho e a confiabilidade do aplicativo em larga escala.",
+      "fr": "Chez Aya Healthcare, j'ai été responsable de diriger le développement de fonctionnalités mobiles pour des applications Flutter orientées vers les patients et les professionnels de la santé. Cela comprenait la création de flux d'interface utilisateur complexes, l'intégration d'API RESTful et la garantie de conformité aux normes de confidentialité des données de santé. J'ai travaillé en étroite collaboration avec les designers et les chefs de produit pour livrer des expériences intuitives qui améliorent le parcours du patient et optimisent les processus opérationnels, tout en maintenant les performances et la fiabilité de l'application à grande échelle.",
+      "es": "En Aya Healthcare, fui responsable de liderar el desarrollo de funciones móviles para aplicaciones Flutter orientadas a pacientes y profesionales de la salud. Esto incluyó crear flujos de interfaz de usuario complejos, integrar API RESTful y garantizar el cumplimiento de los estándares de privacidad de datos de salud. Trabajé en estrecha colaboración con diseñadores y gerentes de producto para entregar experiencias intuitivas que mejoren el viaje del paciente y optimicen los procesos operativos, mientras mantengo el rendimiento y la confiabilidad de la aplicación a gran escala.",
+      "de": "Bei Aya Healthcare war ich für die Leitung der Entwicklung mobiler Funktionen für Flutter-Anwendungen verantwortlich, die auf Patienten und Gesundheitsdienstleister ausgerichtet waren. Dazu gehörten die Erstellung komplexer Benutzeroberflächen-Flows, die Integration von RESTful-APIs und die Sicherstellung der Einhaltung von Datenschutzstandards im Gesundheitswesen. Ich arbeitete eng mit Designern und Produktmanagern zusammen, um intuitive Erfahrungen zu liefern, die die Patientenreise verbessern und betriebliche Prozesse optimieren, während ich gleichzeitig Leistung und Zuverlässigkeit der Anwendung in großem Maßstab aufrechterhielt."
+    },
+    "location": {
+      "en": "California, United States",
+      "pt": "Califórnia, Estados Unidos",
+      "fr": "Californie, États-Unis",
+      "es": "California, Estados Unidos",
+      "de": "Kalifornien, Vereinigte Staaten"
+    },
+    "locationType": "remote",
+    "technologies": [
+      "flutter",
+      "dart",
+      "apiRest",
+      "gcp",
+      "tdd",
+      "agile",
+      "git",
+      "e2e",
+      "cicd",
+      "ux",
+      "android",
+      "ios"
+    ]
+  },
+  {
+    "company": "Yupix",
+    "role": {
+      "en": "Software Engineer",
+      "pt": "Engenheiro de Software",
+      "fr": "Ingénieur logiciel",
+      "es": "Ingeniero de software",
+      "de": "Softwareingenieur"
+    },
+    "startDate": "2022-02-01",
+    "endDate": "2022-07-01",
+    "description": {
+      "en": "At Yupix, I contributed to the development of a Flutter-based financial management platform, focusing on both mobile and web applications. My responsibilities included implementing new accounting features, optimizing app performance, and ensuring a consistent user experience across different platforms. I worked with microservices and RESTful APIs to process real-time data, always prioritizing code quality, testing, and agile practices.",
+      "pt": "Na Yupix, contribuí para o desenvolvimento de uma plataforma de gestão financeira baseada em Flutter, focando tanto em aplicativos móveis quanto na web. Minhas responsabilidades incluíam implementar novos recursos de contabilidade, otimizar o desempenho do aplicativo e garantir uma experiência de usuário consistente em diferentes plataformas. Trabalhei com microserviços e APIs RESTful para processar dados em tempo real, sempre priorizando qualidade de código, testes e práticas ágeis.",
+      "fr": "Chez Yupix, j'ai contribué au développement d'une plateforme de gestion financière basée sur Flutter, en me concentrant à la fois sur les applications mobiles et web. Mes responsabilités comprenaient la mise en œuvre de nouvelles fonctionnalités comptables, l'optimisation des performances de l'application et la garantie d'une expérience utilisateur cohérente sur différentes plateformes. J'ai travaillé avec des microservices et des API RESTful pour traiter des données en temps réel, en priorisant toujours la qualité du code, les tests et les pratiques agiles.",
+      "es": "En Yupix, contribuí al desarrollo de una plataforma de gestión financiera basada en Flutter, enfocándome tanto en aplicaciones móviles como web. Mis responsabilidades incluyeron implementar nuevas funciones de contabilidad, optimizar el rendimiento de la aplicación y garantizar una experiencia de usuario consistente en diferentes plataformas. Trabajé con microserviços y API RESTful para procesar datos en tiempo real, siempre priorizando la calidad del código, las pruebas y las prácticas ágiles.",
+      "de": "Bei Yupix trug ich zur Entwicklung einer Flutter-basierten Finanzverwaltungsplattform bei und konzentrierte mich sowohl auf mobile als auch auf Webanwendungen. Zu meinen Aufgaben gehörten die Implementierung neuer Buchhaltungsfunktionen, die Optimierung der Anwendungsleistung und die Sicherstellung einer konsistenten Benutzererfahrung auf verschiedenen Plattformen. Ich arbeitete mit Microservices und RESTful-APIs, um Echtzeitdaten zu verarbeiten, wobei ich immer Codequalität, Tests und agile Praktiken priorisierte."
+    },
+    "location": {
+      "en": "Florida, United States",
+      "pt": "Flórida, Estados Unidos",
+      "fr": "Floride, États-Unis",
+      "es": "Florida, Estados Unidos",
+      "de": "Florida, Vereinigte Staaten"
+    },
+    "locationType": "remote",
+    "technologies": [
+      "flutter",
+      "dart",
+      "apiRest",
+      "gcp",
+      "tdd",
+      "agile",
+      "git",
+      "e2e",
+      "cicd",
+      "ux",
+      "android",
+      "ios",
+      "flutterWeb"
+    ]
+  },
+  {
+    "company": "MC1",
+    "role": {
+      "en": "Software Engineer",
+      "pt": "Engenheiro de Software",
+      "fr": "Ingénieur logiciel",
+      "es": "Ingeniero de software",
+      "de": "Softwareingenieur"
+    },
+    "startDate": "2021-07-01",
+    "endDate": "2022-02-01",
+    "description": {
+      "en": "At MC1, I led the development of an innovative Flutter app that utilized machine learning for image classification and object detection. This involved integrating TensorFlow models into the app, optimizing inference on mobile devices, and creating intuitive user interfaces for real-time interaction. Additionally, I collaborated with data scientists to fine-tune models and improve accuracy, ensuring the app delivered fast and reliable results while maintaining the quality of user experience.",
+      "pt": "Na MC1, liderei o desenvolvimento de um aplicativo Flutter inovador que utilizava aprendizado de máquina para classificação de imagens e detecção de objetos. Isso envolveu integrar modelos TensorFlow no aplicativo, otimizar a inferência em dispositivos móveis e criar interfaces de usuário intuitivas para interação em tempo real. Além disso, colaborei com cientistas de dados para afinar modelos e melhorar a precisão, garantindo que o aplicativo oferecesse resultados rápidos e confiáveis enquanto mantinha a qualidade da experiência do usuário.",
+      "fr": "Chez MC1, j'ai dirigé le développement d'une application Flutter innovante qui utilisait l'apprentissage automatique pour la classification d'images et la détection d'objets. Cela impliquait l'intégration de modèles TensorFlow dans l'application, l'optimisation de l'inférence sur les appareils mobiles et la création d'interfaces utilisateur intuitives pour l'interaction en temps réel. De plus, j'ai collaboré avec des data scientists pour affiner les modèles et améliorer la précision, en garantissant que l'application offrait des résultats rapides et fiables tout en maintenant la qualité de l'expérience utilisateur.",
+      "es": "En MC1, lideré el desarrollo de una aplicación Flutter innovadora que utilizaba aprendizaje automático para clasificación de imágenes y detección de objetos. Esto implicó integrar modelos TensorFlow en la aplicación, optimizar la inferencia en dispositivos móviles y crear interfaces de usuario intuitivas para interacción en tiempo real. Además, colaboré con científicos de datos para afinar modelos y mejorar la precisión, garantizando que la aplicación ofreciera resultados rápidos y confiables mientras mantenía la calidad de la experiencia del usuario.",
+      "de": "Bei MC1 leitete ich die Entwicklung einer innovativen Flutter-Anwendung, die maschinelles Lernen für Bildklassifikation und Objekterkennung verwendete. Dies beinhaltete die Integration von TensorFlow-Modellen in die Anwendung, die Optimierung der Inferenz auf mobilen Geräten und die Erstellung intuitiver Benutzeroberflächen für Echtzeit-Interaktion. Darüber hinaus arbeitete ich mit Datenwissenschaftlern zusammen, um Modelle zu verfeinern und die Genauigkeit zu verbessern, und stellte sicher, dass die Anwendung schnelle und zuverlässige Ergebnisse lieferte, während die Qualität der Benutzererfahrung erhalten blieb."
+    },
+    "location": {
+      "en": "São Paulo, Brazil",
+      "pt": "São Paulo, Brasil",
+      "fr": "São Paulo, Brésil",
+      "es": "São Paulo, Brasil",
+      "de": "São Paulo, Brasilien"
+    },
+    "locationType": "remote",
+    "technologies": [
+      "flutter",
+      "dart",
+      "apiRest",
+      "gcp",
+      "tdd",
+      "agile",
+      "git",
+      "e2e",
+      "cicd",
+      "ux",
+      "android",
+      "ios",
+      "tensorFlow",
+      "imageClassification",
+      "objectDetection"
+    ]
+  },
+  {
+    "company": "Cielo",
+    "role": {
+      "en": "Software Engineer",
+      "pt": "Engenheiro de Software",
+      "fr": "Ingénieur logiciel",
+      "es": "Ingeniero de software",
+      "de": "Softwareingenieur"
+    },
+    "startDate": "2019-08-01",
+    "endDate": "2021-07-01",
+    "description": {
+      "en": "At Cielo, I worked on mobile payment solutions using Flutter, enabling merchants to process transactions efficiently and securely. I developed features for payment terminal integration, transaction management, and reporting dashboards, ensuring compliance with PCI standards and optimizing for high-transaction environments. I also contributed to web and backend applications using C#, PHP, and JavaScript, improving the scalability and maintainability of the overall system.",
+      "pt": "Na Cielo, trabalhei em soluções móveis de pagamento usando Flutter, permitindo que comerciantes processassem transações de forma eficiente e segura. Desenvolvi recursos para integração de terminais de pagamento, gerenciamento de transações e painéis de relatórios, garantindo conformidade com os padrões PCI e otimizando para ambientes de alta transação. Também contribuí para aplicações web e de backend usando C#, PHP e JavaScript, melhorando a escalabilidade e a manutenibilidade do sistema geral.",
+      "fr": "Chez Cielo, j'ai travaillé sur des solutions de paiement mobile en utilisant Flutter, permettant aux commerçants de traiter les transactions de manière efficace et sécurisée. J'ai développé des fonctionnalités pour l'intégration de terminaux de paiement, la gestion des transactions et les tableaux de bord de rapports, en garantissant la conformité aux normes PCI et en optimisant pour des environnements à haute transaction. J'ai également contribué aux applications web et backend en utilisant C#, PHP et JavaScript, améliorant l'évolutivité et la maintenabilité du système global.",
+      "es": "En Cielo, trabajé en soluciones de pago móvil usando Flutter, permitiendo a los comerciantes procesar transacciones de manera eficiente y segura. Desarrollé funciones para integración de terminales de pago, gestión de transacciones y paneles de informes, garantizando el cumplimiento de los estándares PCI y optimizando para entornos de alta transacción. También contribuí a aplicaciones web y de backend usando C#, PHP y JavaScript, mejorando la escalabilidad y la mantenibilidad del sistema general.",
+      "de": "Bei Cielo arbeitete ich an mobilen Zahlungslösungen mit Flutter, die es Händlern ermöglichten, Transaktionen effizient und sicher zu verarbeiten. Ich entwickelte Funktionen für die Integration von Zahlungsterminals, Transaktionsverwaltung und Berichts-Dashboards, stellte die Einhaltung der PCI-Standards sicher und optimierte für Umgebungen mit hohem Transaktionsaufkommen. Ich trug auch zu Web- und Backend-Anwendungen mit C#, PHP und JavaScript bei und verbesserte die Skalierbarkeit und Wartbarkeit des Gesamtsystems."
+    },
+    "location": {
+      "en": "São Paulo, Brazil",
+      "pt": "São Paulo, Brasil",
+      "fr": "São Paulo, Brésil",
+      "es": "São Paulo, Brasil",
+      "de": "São Paulo, Brasilien"
+    },
+    "locationType": "hybrid",
+    "technologies": [
+      "flutter",
+      "dart",
+      "apiRest",
+      "gcp",
+      "tdd",
+      "agile",
+      "git",
+      "e2e",
+      "cicd",
+      "ux",
+      "android",
+      "ios",
+      "php",
+      "csharp",
+      "js",
+      "kotlin",
+      "docker",
+      "azure"
+    ]
+  },
+  {
+    "company": "Cielo",
+    "role": {
+      "en": "Software Developer",
+      "pt": "Desenvolvedor de Software",
+      "fr": "Développeur de logiciel",
+      "es": "Desarrollador de software",
+      "de": "Softwareentwickler"
+    },
+    "startDate": "2017-08-01",
+    "endDate": "2019-08-01",
+    "description": {
+      "en": "As a Software Developer at Cielo, I started my journey with Flutter by contributing to the development of mobile payment applications. I worked on various features, including payment gateway integration, user authentication management, and creating reusable interface components. In addition to Flutter, I also worked with backend technologies such as C#, PHP, and JavaScript to support web services and ensure seamless communication between mobile devices and the backend. This experience provided me with a solid foundation in full-stack development and agile methodologies.",
+      "pt": "Como Desenvolvedor de Software na Cielo, comecei minha jornada em Flutter contribuindo para o desenvolvimento de aplicativos móveis de pagamento. Trabalhei em vários recursos, incluindo integração de gateway de pagamento, gerenciamento de autenticação de usuários e criação de componentes de interface reutilizáveis. Além do Flutter, também trabalhei com tecnologias backend, como C#, PHP e JavaScript, para dar suporte a serviços web e garantir uma comunicação fluida entre dispositivos móveis e o backend. Essa experiência me forneceu uma base sólida em desenvolvimento full-stack e metodologias ágeis.",
+      "fr": "En tant que développeur de logiciels chez Cielo, j'ai commencé mon parcours avec Flutter en contribuant au développement d'applications de paiement mobile. J'ai travaillé sur diverses fonctionnalités, notamment l'intégration de passerelles de paiement, la gestion de l'authentification des utilisateurs et la création de composants d'interface réutilisables. En plus de Flutter, j'ai également travaillé avec des technologies backend telles que C#, PHP et JavaScript pour prendre en charge les services web et garantir une communication transparente entre les appareils mobiles et le backend. Cette expérience m'a fourni une base solide en développement full-stack et en méthodologies agiles.",
+      "es": "Como Desarrollador de Software en Cielo, comencé mi viaje en Flutter contribuyendo al desarrollo de aplicaciones de pago móvil. Trabajé en varias funciones, incluida la integración de pasarelas de pago, gestión de autenticación de usuarios y creación de componentes de interfaz reutilizables. Además de Flutter, también trabajé con tecnologías backend como C#, PHP y JavaScript para admitir servicios web y garantizar una comunicación perfecta entre dispositivos móviles y el backend. Esta experiencia me proporcionó una base sólida en desarrollo full-stack y metodologías ágiles.",
+      "de": "Als Softwareentwickler bei Cielo begann ich meine Reise mit Flutter, indem ich zur Entwicklung mobiler Zahlungsanwendungen beitrug. Ich arbeitete an verschiedenen Funktionen, einschließlich der Integration von Zahlungsgateways, der Verwaltung der Benutzerauthentifizierung und der Erstellung wiederverwendbarer Schnittstellenkomponenten. Neben Flutter arbeitete ich auch mit Backend-Technologien wie C#, PHP und JavaScript, um Webdienste zu unterstützen und eine nahtlose Kommunikation zwischen mobilen Geräten und dem Backend sicherzustellen. Diese Erfahrung gab mir eine solide Grundlage in Full-Stack-Entwicklung und agilen Methoden."
+    },
+    "location": {
+      "en": "São Paulo, Brazil",
+      "pt": "São Paulo, Brasil",
+      "fr": "São Paulo, Brésil",
+      "es": "São Paulo, Brasil",
+      "de": "São Paulo, Brasilien"
+    },
+    "locationType": "hybrid",
+    "technologies": [
+      "flutter",
+      "dart",
+      "apiRest",
+      "gcp",
+      "tdd",
+      "agile",
+      "git",
+      "e2e",
+      "cicd",
+      "ux",
+      "android",
+      "ios",
+      "php",
+      "csharp",
+      "js",
+      "kotlin",
+      "docker",
+      "azure"
+    ]
+  }
+]

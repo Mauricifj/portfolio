@@ -1,0 +1,60 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Style
+    - camel_case_types
+    - library_names
+    - file_names
+    - library_prefixes
+    - non_constant_identifier_names
+    - constant_identifier_names
+    - directives_ordering
+    - lines_longer_than_80_chars
+    - curly_braces_in_flow_control_structures
+    
+    # Documentation
+    - slash_for_doc_comments
+    - package_api_docs
+    
+    # Usage
+    - implementation_imports
+    - avoid_relative_lib_imports
+    - prefer_relative_imports
+    - prefer_adjacent_string_concatenation
+    - prefer_interpolation_to_compose_strings
+    - unnecessary_brace_in_string_interps
+    - prefer_collection_literals
+    - avoid_function_literals_in_foreach_calls
+    - prefer_iterable_whereType
+    - prefer_function_declarations_over_variables
+    - unnecessary_lambdas
+    - prefer_equal_for_default_values
+    - avoid_init_to_null
+    - unnecessary_getters_setters
+    - unnecessary_this
+    - prefer_initializing_formals
+    - type_init_formals
+    - empty_constructor_bodies
+    - unnecessary_new
+    - unnecessary_const
+    - avoid_catches_without_on_clauses
+    - avoid_catching_errors
+    - use_rethrow_when_possible
+    - avoid_print
+    
+    # Design
+    - use_to_and_as_if_applicable
+    - one_member_abstracts
+    - avoid_classes_with_only_static_members
+    - prefer_mixin
+    - prefer_final_fields
+    - use_setters_to_change_properties
+    - avoid_setters_without_getters
+    - avoid_returning_null
+    - avoid_returning_this
+    - type_annotate_public_apis
+    - always_declare_return_types
+    - prefer_const_constructors
+    - prefer_final_locals
+    - prefer_single_quotes

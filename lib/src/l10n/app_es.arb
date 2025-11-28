@@ -1,0 +1,54 @@
+{
+  "@@locale": "es",
+  "app_title": "Portafolio Mauricifj",
+  "app_description": "Sitio Web de Portafolio Personal",
+
+  "aboutMe_title": "Sobre Mí",
+  "aboutMe_heroGreeting": "Hola, soy",
+  "aboutMe_heroIntro": "Un desarrollador apasionado creando hermosas experiencias digitales.",
+
+  "experience_title": "Experiencia",
+  "experience_roleLabel": "Rol",
+  "experience_companyLabel": "Empresa",
+  "experience_durationLabel": "Duración",
+  "experience_technologiesLabel": "Tecnologías",
+
+  "education_title": "Educación",
+
+  "projects_title": "Proyectos",
+  "projects_viewProjectButton": "Ver Proyecto",
+
+  "contact_title": "Contacto",
+
+  "settings_languageTitle": "Cambiar idioma",
+  "settings_languageCurrent": "Español",
+  "settings_themeTitle": "Cambiar tema",
+  "settings_themeSystem": "Sistema",
+  "settings_themeLight": "Claro",
+  "settings_themeDark": "Oscuro",
+
+  "common_present": "Actualidad",
+  "common_errorLaunchUrl": "¡Vaya! No pude abrir ese enlace. Aquí está la URL: {url}",
+  "@common_errorLaunchUrl": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    },
+    "description": "Mensaje de error cuando no se puede abrir una URL"
+  },
+  "common_errorLoading": "Algo salió mal al cargar el contenido. Por favor, inténtalo de nuevo más tarde.",
+
+  "language_english": "English",
+  "language_portuguese": "Português",
+  "language_french": "Français",
+  "language_spanish": "Español",
+  "language_german": "Deutsch",
+
+  "share_button_tooltip": "Compartir esta página",
+  "share_title": "¡Descubre mi portafolio!",
+  "share_text": "Descubre mi portafolio en mauricifj.dev",
+  "app_store_button_tooltip": "Descargar en la App Store",
+  "play_store_button_tooltip": "Disponible en Google Play",
+  "coming_soon_message": "¡Próximamente! Mantente atento a la aplicación móvil."
+}

@@ -1,0 +1,54 @@
+{
+  "@@locale": "de",
+  "app_title": "Mauricifj Portfolio",
+  "app_description": "Persönliche Portfolio-Website",
+
+  "aboutMe_title": "Über Mich",
+  "aboutMe_heroGreeting": "Hallo, ich bin",
+  "aboutMe_heroIntro": "Ein leidenschaftlicher Entwickler, der schöne digitale Erlebnisse schafft.",
+
+  "experience_title": "Erfahrung",
+  "experience_roleLabel": "Rolle",
+  "experience_companyLabel": "Unternehmen",
+  "experience_durationLabel": "Dauer",
+  "experience_technologiesLabel": "Technologien",
+
+  "education_title": "Ausbildung",
+
+  "projects_title": "Projekte",
+  "projects_viewProjectButton": "Projekt Ansehen",
+
+  "contact_title": "Kontakt",
+
+  "settings_languageTitle": "Sprache ändern",
+  "settings_languageCurrent": "Deutsch",
+  "settings_themeTitle": "Thema ändern",
+  "settings_themeSystem": "System",
+  "settings_themeLight": "Hell",
+  "settings_themeDark": "Dunkel",
+
+  "common_present": "Gegenwart",
+  "common_errorLaunchUrl": "Hoppla! Ich konnte diesen Link nicht öffnen. Hier ist die URL: {url}",
+  "@common_errorLaunchUrl": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    },
+    "description": "Fehlermeldung, wenn eine URL nicht geöffnet werden kann"
+  },
+  "common_errorLoading": "Beim Laden des Inhalts ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+
+  "language_english": "English",
+  "language_portuguese": "Português",
+  "language_french": "Français",
+  "language_spanish": "Español",
+  "language_german": "Deutsch",
+
+  "share_button_tooltip": "Diese Seite teilen",
+  "share_title": "Schauen Sie sich mein Portfolio an!",
+  "share_text": "Schauen Sie sich mein Portfolio auf mauricifj.dev an",
+  "app_store_button_tooltip": "Im App Store herunterladen",
+  "play_store_button_tooltip": "Jetzt bei Google Play",
+  "coming_soon_message": "Demnächst verfügbar! Bleiben Sie dran für die mobile App."
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "institution": "Faculdade de Tecnologia de Praia Grande - FATEC-PG",
+    "degree": {
+      "en": "Technologist in Systems Analysis and Development",
+      "pt": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+      "fr": "Technologue en Analyse et Développement de Systèmes",
+      "es": "Tecnólogo en Análisis y Desarrollo de Sistemas",
+      "de": "Technologe für Systemanalyse und -entwicklung"
+    },
+    "duration": "2017 - 2019",
+    "description": {
+      "en": "Focus on programming, databases, and software engineering. Practical training for analysis, development, and maintenance of corporate systems.",
+      "pt": "Foco em programação, bancos de dados e engenharia de software. Formação prática para análise, desenvolvimento e manutenção de sistemas corporativos.",
+      "fr": "Concentration sur la programmation, les bases de données et l'ingénierie logicielle. Formation pratique pour l'analyse, le développement et la maintenance des systèmes d'entreprise.",
+      "es": "Enfoque en programación, bases de datos e ingeniería de software. Formación práctica para análisis, desarrollo y mantenimiento de sistemas corporativos.",
+      "de": "Schwerpunkt auf Programmierung, Datenbanken und Software Engineering. Praktische Ausbildung für Analyse, Entwicklung und Wartung von Unternehmenssystemen."
+    }
+  }
+]

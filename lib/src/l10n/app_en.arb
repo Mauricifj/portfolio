@@ -1,0 +1,54 @@
+{
+  "@@locale": "en",
+  "app_title": "Mauricifj Portfolio",
+  "app_description": "Personal Portfolio Website",
+
+  "aboutMe_title": "About Me",
+  "aboutMe_heroGreeting": "Hello, I'm",
+  "aboutMe_heroIntro": "A passionate developer creating beautiful digital experiences.",
+
+  "experience_title": "Experience",
+  "experience_roleLabel": "Role",
+  "experience_companyLabel": "Company",
+  "experience_durationLabel": "Duration",
+  "experience_technologiesLabel": "Technologies",
+
+  "education_title": "Education",
+
+  "projects_title": "Projects",
+  "projects_viewProjectButton": "View Project",
+
+  "contact_title": "Contact",
+
+  "settings_languageTitle": "Change Language",
+  "settings_languageCurrent": "English",
+  "settings_themeTitle": "Change Theme",
+  "settings_themeSystem": "System",
+  "settings_themeLight": "Light",
+  "settings_themeDark": "Dark",
+
+  "common_present": "Present",
+  "common_errorLaunchUrl": "Oops! I couldn't open that link. Here is the URL: {url}",
+  "@common_errorLaunchUrl": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    },
+    "description": "Error message when a URL cannot be launched"
+  },
+  "common_errorLoading": "Something went wrong while loading the content. Please try again later.",
+
+  "language_english": "English",
+  "language_portuguese": "Português",
+  "language_french": "Français",
+  "language_spanish": "Español",
+  "language_german": "Deutsch",
+
+  "share_button_tooltip": "Share this page",
+  "share_title": "Check out my portfolio!",
+  "share_text": "Check out my portfolio at mauricifj.dev",
+  "app_store_button_tooltip": "Download on the App Store",
+  "play_store_button_tooltip": "Get it on Google Play",
+  "coming_soon_message": "Coming soon! Stay tuned for the mobile app."
+}
