@@ -50,5 +50,11 @@
   "share_text": "Découvrez mon portfolio sur mauricifj.dev",
   "app_store_button_tooltip": "Télécharger sur l'App Store",
   "play_store_button_tooltip": "Disponible sur Google Play",
-  "coming_soon_message": "Bientôt disponible ! Restez à l'écoute pour l'application mobile."
+  "coming_soon_message": "Bientôt disponible ! Restez à l'écoute pour l'application mobile.",
+  "privacyPolicy_title": "Politique de Confidentialité",
+  "privacyPolicy_lastUpdated": "Dernière mise à jour :",
+  "termsOfUse_title": "Conditions d'Utilisation",
+  "termsOfUse_lastUpdated": "Dernière mise à jour :",
+  "support_title": "Support",
+  "support_description": "Besoin d'aide ou des questions concernant l'application de portefeuille ? Vous pouvez me contacter via les canaux suivants :"
 }

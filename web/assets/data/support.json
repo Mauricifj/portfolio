@@ -1,0 +1,28 @@
+{
+  "channels": [
+    {
+      "type": "email",
+      "title": {
+        "en": "Email",
+        "pt": "E-mail",
+        "fr": "E-mail",
+        "es": "Correo electrónico",
+        "de": "E-Mail"
+      },
+      "subtitle": "contact@mauricifj.dev",
+      "url": "mailto:contact@mauricifj.dev"
+    },
+    {
+      "type": "linkedin",
+      "title": {
+        "en": "LinkedIn",
+        "pt": "LinkedIn",
+        "fr": "LinkedIn",
+        "es": "LinkedIn",
+        "de": "LinkedIn"
+      },
+      "subtitle": "linkedin.com/in/mauricifj",
+      "url": "https://linkedin.com/in/mauricifj"
+    }
+  ]
+}

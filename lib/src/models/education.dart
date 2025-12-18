@@ -1,3 +1,5 @@
+import '../utils/json_utils.dart';
+
 class Education {
   final String institution;
   final String degree;
@@ -12,16 +14,11 @@ class Education {
   });
 
   factory Education.fromJson(Map<String, dynamic> json, String languageCode) {
-    final degreeMap = json['degree'] as Map<String, dynamic>;
-    final descriptionMap = json['description'] as Map<String, dynamic>;
-
     return Education(
       institution: json['institution'] as String,
-      degree: degreeMap[languageCode] as String? ?? degreeMap['en'] as String,
+      degree: getLocalized(json['degree'], languageCode),
       duration: json['duration'] as String,
-      description:
-          descriptionMap[languageCode] as String? ??
-          descriptionMap['en'] as String,
+      description: getLocalized(json['description'], languageCode),
     );
   }
 }

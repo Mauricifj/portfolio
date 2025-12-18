@@ -107,6 +107,7 @@ class HomeDesktopLayout extends ConsumerWidget {
                 const SliverToBoxAdapter(
                   child: SizedBox(height: AppSpacings.s80),
                 ),
+                const SliverToBoxAdapter(child: FooterSection()),
               ],
             ),
           ),

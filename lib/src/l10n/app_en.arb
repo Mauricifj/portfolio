@@ -50,5 +50,11 @@
   "share_text": "Check out my portfolio at mauricifj.dev",
   "app_store_button_tooltip": "Download on the App Store",
   "play_store_button_tooltip": "Get it on Google Play",
-  "coming_soon_message": "Coming soon! Stay tuned for the mobile app."
+  "coming_soon_message": "Coming soon! Stay tuned for the mobile app.",
+  "privacyPolicy_title": "Privacy Policy",
+  "privacyPolicy_lastUpdated": "Last updated:",
+  "termsOfUse_title": "Terms of Use",
+  "termsOfUse_lastUpdated": "Last updated:",
+  "support_title": "Support",
+  "support_description": "Need help or have questions regarding the portfolio app? You can reach out to me via the following channels:"
 }

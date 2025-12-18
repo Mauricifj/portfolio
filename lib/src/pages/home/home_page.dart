@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../design_system/design_system.dart';
-import 'home/layouts/home_desktop_layout.dart';
-import 'home/layouts/home_mobile_layout.dart';
+import '../../design_system/design_system.dart';
+import 'layouts/home_desktop_layout.dart';
+import 'layouts/home_mobile_layout.dart';
 
 class HomePage extends ConsumerStatefulWidget {
   const HomePage({super.key});

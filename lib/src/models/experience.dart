@@ -1,3 +1,4 @@
+import '../utils/json_utils.dart';
 import 'location_type.dart';
 import 'technology.dart';
 
@@ -23,26 +24,20 @@ class Experience {
   });
 
   factory Experience.fromJson(Map<String, dynamic> json, String languageCode) {
-    final roleMap = json['role'] as Map<String, dynamic>;
-    final descriptionMap = json['description'] as Map<String, dynamic>;
-    final locationMap = json['location'] as Map<String, dynamic>;
-
     return Experience(
       company: json['company'] as String,
-      role: roleMap[languageCode] as String? ?? roleMap['en'] as String,
-      startDate: DateTime.parse(json['startDate'] as String),
+      role: getLocalized(json['role'], languageCode),
+      startDate: .parse(json['startDate'] as String),
       endDate: json['endDate'] != null
-          ? DateTime.parse(json['endDate'] as String)
+          ? .parse(json['endDate'] as String)
           : null,
-      description:
-          descriptionMap[languageCode] as String? ??
-          descriptionMap['en'] as String,
-      location:
-          locationMap[languageCode] as String? ?? locationMap['en'] as String,
-      locationType: LocationType.fromJson(json['locationType']),
+      description: getLocalized(json['description'], languageCode),
+      location: getLocalized(json['location'], languageCode),
+      locationType: .fromJson(json['locationType']),
       technologies: [
-        for (final tech in json['technologies'] as List? ?? [])
+        for (final tech in json['technologies'] as List? ?? []) ...[
           Technology.fromJson(tech.toString()),
+        ],
       ].where((t) => t != .unspecified).toList(),
     );
   }

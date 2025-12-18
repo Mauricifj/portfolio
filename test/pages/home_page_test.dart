@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:portfolio/main.dart';
 import 'package:portfolio/src/design_system/design_system.dart';
-import 'package:portfolio/src/pages/home_page.dart';
+import 'package:portfolio/src/pages/home/home_page.dart';
 import 'package:portfolio/src/pages/sections/sections.dart';
 import 'package:portfolio/src/providers/providers.dart';
 

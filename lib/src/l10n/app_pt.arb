@@ -50,5 +50,11 @@
   "share_text": "Confira meu portfólio em mauricifj.dev",
   "app_store_button_tooltip": "Baixar na App Store",
   "play_store_button_tooltip": "Disponível no Google Play",
-  "coming_soon_message": "Em breve! Fique atento ao aplicativo móvel."
+  "coming_soon_message": "Em breve! Fique atento ao aplicativo móvel.",
+  "privacyPolicy_title": "Política de Privacidade",
+  "privacyPolicy_lastUpdated": "Última atualização:",
+  "termsOfUse_title": "Termos de Uso",
+  "termsOfUse_lastUpdated": "Última atualização:",
+  "support_title": "Suporte",
+  "support_description": "Precisa de ajuda ou tem perguntas sobre o aplicativo de portfólio? Você pode entrar em contato comigo através dos seguintes canais:"
 }

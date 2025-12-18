@@ -49,3 +49,15 @@ final educationProvider = FutureProvider<List<Education>>((ref) async {
   final locale = ref.watch(localeProvider);
   return repository.getEducation(locale.languageCode);
 });
+
+final legalDataProvider = FutureProvider<LegalData>((ref) async {
+  final repository = ref.watch(dataRepositoryProvider);
+  final locale = ref.watch(localeProvider);
+  return repository.getLegalData(locale.languageCode);
+});
+
+final supportDataProvider = FutureProvider<SupportContent>((ref) async {
+  final repository = ref.watch(dataRepositoryProvider);
+  final locale = ref.watch(localeProvider);
+  return repository.getSupportData(locale.languageCode);
+});

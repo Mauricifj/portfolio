@@ -115,4 +115,23 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get coming_soon_message =>
       'Demnächst verfügbar! Bleiben Sie dran für die mobile App.';
+
+  @override
+  String get privacyPolicy_title => 'Datenschutzerklärung';
+
+  @override
+  String get privacyPolicy_lastUpdated => 'Zuletzt aktualisiert:';
+
+  @override
+  String get termsOfUse_title => 'Nutzungsbedingungen';
+
+  @override
+  String get termsOfUse_lastUpdated => 'Zuletzt aktualisiert:';
+
+  @override
+  String get support_title => 'Support';
+
+  @override
+  String get support_description =>
+      'Benötigen Sie Hilfe oder haben Sie Fragen zur Portfolio-App? Sie können mich über die folgenden Kanäle erreichen:';
 }

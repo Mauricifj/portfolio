@@ -77,6 +77,43 @@ class RemoteDataRepository implements DataRepository {
     final List<dynamic> data = json.decode(jsonString);
     return data.map((json) => Education.fromJson(json, languageCode)).toList();
   }
+
+  @override
+  Future<LegalData> getLegalData(String languageCode) async {
+    try {
+      final uri = Uri.parse('${AppConfig.dataUrl}/legal.json');
+      final response = await _client.get(uri);
+      if (response.statusCode == 200) {
+        final Map<String, dynamic> data = json.decode(response.body);
+        return .fromJson(data, languageCode);
+      }
+    } on Exception catch (error, stackTrace) {
+      _logError(error, stackTrace);
+    }
+
+    final jsonString = await rootBundle.loadString('assets/data/legal.json');
+    final Map<String, dynamic> data = json.decode(jsonString);
+    return .fromJson(data, languageCode);
+  }
+
+  @override
+  Future<SupportContent> getSupportData(String languageCode) async {
+    try {
+      final uri = Uri.parse('${AppConfig.dataUrl}/support.json');
+      final response = await _client.get(uri);
+      if (response.statusCode == 200) {
+        final Map<String, dynamic> data = json.decode(response.body);
+        return .fromJson(data, languageCode);
+      }
+    } on Exception catch (error, stackTrace) {
+      _logError(error, stackTrace);
+    }
+
+    final jsonString = await rootBundle.loadString('assets/data/support.json');
+    final Map<String, dynamic> data = json.decode(jsonString);
+    return .fromJson(data, languageCode);
+  }
+
   void _logError(Object error, StackTrace stackTrace) {
     debugPrint('Failed to load remote data: $error');
     debugPrint('Stack trace: $stackTrace');

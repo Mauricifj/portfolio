@@ -114,4 +114,23 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get coming_soon_message =>
       'Em breve! Fique atento ao aplicativo móvel.';
+
+  @override
+  String get privacyPolicy_title => 'Política de Privacidade';
+
+  @override
+  String get privacyPolicy_lastUpdated => 'Última atualização:';
+
+  @override
+  String get termsOfUse_title => 'Termos de Uso';
+
+  @override
+  String get termsOfUse_lastUpdated => 'Última atualização:';
+
+  @override
+  String get support_title => 'Suporte';
+
+  @override
+  String get support_description =>
+      'Precisa de ajuda ou tem perguntas sobre o aplicativo de portfólio? Você pode entrar em contato comigo através dos seguintes canais:';
 }

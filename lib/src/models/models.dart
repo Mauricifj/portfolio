@@ -1,6 +1,11 @@
 export 'app_language.dart';
 export 'education.dart';
 export 'experience.dart';
+export 'legal_data.dart';
+export 'legal_page_content.dart';
+export 'legal_section.dart';
 export 'location_type.dart';
 export 'project.dart';
+export 'support_channel.dart';
+export 'support_content.dart';
 export 'technology.dart';

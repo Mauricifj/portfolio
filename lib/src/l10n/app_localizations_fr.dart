@@ -114,4 +114,23 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get coming_soon_message =>
       'Bientôt disponible ! Restez à l\'écoute pour l\'application mobile.';
+
+  @override
+  String get privacyPolicy_title => 'Politique de Confidentialité';
+
+  @override
+  String get privacyPolicy_lastUpdated => 'Dernière mise à jour :';
+
+  @override
+  String get termsOfUse_title => 'Conditions d\'Utilisation';
+
+  @override
+  String get termsOfUse_lastUpdated => 'Dernière mise à jour :';
+
+  @override
+  String get support_title => 'Support';
+
+  @override
+  String get support_description =>
+      'Besoin d\'aide ou des questions concernant l\'application de portefeuille ? Vous pouvez me contacter via les canaux suivants :';
 }

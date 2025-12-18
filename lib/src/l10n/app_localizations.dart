@@ -307,6 +307,42 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Coming soon! Stay tuned for the mobile app.'**
   String get coming_soon_message;
+
+  /// No description provided for @privacyPolicy_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy Policy'**
+  String get privacyPolicy_title;
+
+  /// No description provided for @privacyPolicy_lastUpdated.
+  ///
+  /// In en, this message translates to:
+  /// **'Last updated:'**
+  String get privacyPolicy_lastUpdated;
+
+  /// No description provided for @termsOfUse_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Terms of Use'**
+  String get termsOfUse_title;
+
+  /// No description provided for @termsOfUse_lastUpdated.
+  ///
+  /// In en, this message translates to:
+  /// **'Last updated:'**
+  String get termsOfUse_lastUpdated;
+
+  /// No description provided for @support_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Support'**
+  String get support_title;
+
+  /// No description provided for @support_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Need help or have questions regarding the portfolio app? You can reach out to me via the following channels:'**
+  String get support_description;
 }
 
 class _AppLocalizationsDelegate

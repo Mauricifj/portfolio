@@ -53,6 +53,7 @@ class HomeMobileLayout extends ConsumerWidget {
           const SliverToBoxAdapter(child: SizedBox(height: AppSpacings.s80)),
           SliverToBoxAdapter(child: EducationSection(key: sectionKeys[3])),
           const SliverToBoxAdapter(child: SizedBox(height: AppSpacings.s80)),
+          const SliverToBoxAdapter(child: FooterSection()),
         ],
       ),
       bottomNavigationBar: NavigationBar(

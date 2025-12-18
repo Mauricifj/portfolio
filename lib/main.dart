@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:meta_seo/meta_seo.dart';
 
 import 'src/design_system/design_system.dart';
@@ -11,6 +12,7 @@ import 'src/pages/pages.dart';
 import 'src/providers/providers.dart';
 
 void main() {
+  usePathUrlStrategy();
   if (kIsWeb) {
     MetaSEO().config();
   }
@@ -49,6 +51,11 @@ class PortfolioApp extends ConsumerWidget {
         GlobalCupertinoLocalizations.delegate,
       ],
       supportedLocales: AppLanguage.locales,
+      routes: {
+        PrivacyPolicyPage.routeName: (context) => const PrivacyPolicyPage(),
+        TermsOfUsePage.routeName: (context) => const TermsOfUsePage(),
+        SupportPage.routeName: (context) => const SupportPage(),
+      },
       home: const HomePage(),
     );
   }

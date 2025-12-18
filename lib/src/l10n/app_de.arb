@@ -50,5 +50,11 @@
   "share_text": "Schauen Sie sich mein Portfolio auf mauricifj.dev an",
   "app_store_button_tooltip": "Im App Store herunterladen",
   "play_store_button_tooltip": "Jetzt bei Google Play",
-  "coming_soon_message": "Demnächst verfügbar! Bleiben Sie dran für die mobile App."
+  "coming_soon_message": "Demnächst verfügbar! Bleiben Sie dran für die mobile App.",
+  "privacyPolicy_title": "Datenschutzerklärung",
+  "privacyPolicy_lastUpdated": "Zuletzt aktualisiert:",
+  "termsOfUse_title": "Nutzungsbedingungen",
+  "termsOfUse_lastUpdated": "Zuletzt aktualisiert:",
+  "support_title": "Support",
+  "support_description": "Benötigen Sie Hilfe oder haben Sie Fragen zur Portfolio-App? Sie können mich über die folgenden Kanäle erreichen:"
 }
