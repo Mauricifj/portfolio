@@ -39,7 +39,6 @@ class EducationSection extends ConsumerWidget {
                       children: education.map((edu) {
                         return SizedBox(
                           width: AppSizes.cardWidth,
-                          height: AppSizes.cardHeight,
                           child: ContentCard(
                             title: edu.degree,
                             subtitle: edu.institution,

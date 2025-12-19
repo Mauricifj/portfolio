@@ -56,5 +56,6 @@
   "termsOfUse_title": "Conditions d'Utilisation",
   "termsOfUse_lastUpdated": "Dernière mise à jour :",
   "support_title": "Support",
-  "support_description": "Besoin d'aide ou des questions concernant l'application de portefeuille ? Vous pouvez me contacter via les canaux suivants :"
+  "support_description": "Besoin d'aide ou des questions concernant l'application de portefeuille? Vous pouvez me contacter via les canaux suivants:",
+  "footer_copyright": "© {year} Mauricifj. Tous droits réservés."
 }

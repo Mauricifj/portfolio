@@ -132,5 +132,10 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get support_description =>
-      'Besoin d\'aide ou des questions concernant l\'application de portefeuille ? Vous pouvez me contacter via les canaux suivants :';
+      'Besoin d\'aide ou des questions concernant l\'application de portefeuille? Vous pouvez me contacter via les canaux suivants:';
+
+  @override
+  String footer_copyright(String year) {
+    return '© $year Mauricifj. Tous droits réservés.';
+  }
 }

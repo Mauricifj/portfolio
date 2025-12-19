@@ -56,5 +56,13 @@
   "termsOfUse_title": "Terms of Use",
   "termsOfUse_lastUpdated": "Last updated:",
   "support_title": "Support",
-  "support_description": "Need help or have questions regarding the portfolio app? You can reach out to me via the following channels:"
+  "support_description": "Need help or have questions regarding the portfolio app? You can reach out to me via the following channels:",
+  "footer_copyright": "© {year} Mauricifj. All rights reserved.",
+  "@footer_copyright": {
+    "placeholders": {
+      "year": {
+        "type": "String"
+      }
+    }
+  }
 }

@@ -133,4 +133,9 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get support_description =>
       'Precisa de ajuda ou tem perguntas sobre o aplicativo de portfólio? Você pode entrar em contato comigo através dos seguintes canais:';
+
+  @override
+  String footer_copyright(String year) {
+    return '© $year Mauricifj. Todos os direitos reservados.';
+  }
 }

@@ -22,9 +22,27 @@ class SupportPage extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final legalDataAsync = ref.watch(supportDataProvider);
+    final locale = ref.watch(localeProvider);
+    final themeMode = ref.watch(themeModeProvider);
 
     return Scaffold(
-      appBar: AppBar(title: Text(AppLocalizations.of(context)!.support_title)),
+      appBar: AppBar(
+        title: Text(AppLocalizations.of(context)!.support_title),
+        actions: [
+          LanguageSelector(
+            currentLocale: locale,
+            onLocaleChanged: (newLocale) {
+              ref.read(localeProvider.notifier).state = newLocale;
+            },
+          ),
+          ThemeSelector(
+            currentThemeMode: themeMode,
+            onThemeModeChanged: (newThemeMode) {
+              ref.read(themeModeProvider.notifier).state = newThemeMode;
+            },
+          ),
+        ],
+      ),
       body: legalDataAsync.when(
         data: (data) {
           final content = data;

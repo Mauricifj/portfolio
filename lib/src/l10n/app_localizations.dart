@@ -343,6 +343,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Need help or have questions regarding the portfolio app? You can reach out to me via the following channels:'**
   String get support_description;
+
+  /// No description provided for @footer_copyright.
+  ///
+  /// In en, this message translates to:
+  /// **'© {year} Mauricifj. All rights reserved.'**
+  String footer_copyright(String year);
 }
 
 class _AppLocalizationsDelegate

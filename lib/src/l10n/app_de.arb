@@ -56,5 +56,6 @@
   "termsOfUse_title": "Nutzungsbedingungen",
   "termsOfUse_lastUpdated": "Zuletzt aktualisiert:",
   "support_title": "Support",
-  "support_description": "Benötigen Sie Hilfe oder haben Sie Fragen zur Portfolio-App? Sie können mich über die folgenden Kanäle erreichen:"
+  "support_description": "Benötigen Sie Hilfe oder haben Sie Fragen zur Portfolio-App? Sie können mich über die folgenden Kanäle erreichen:",
+  "footer_copyright": "© {year} Mauricifj. Alle Rechte vorbehalten."
 }

@@ -54,37 +54,9 @@ class ContentCard extends StatelessWidget {
                     crossAxisAlignment: .start,
                     mainAxisAlignment: .spaceBetween,
                     children: [
-                      Column(
-                        crossAxisAlignment: .start,
-                        mainAxisSize: .min,
-                        children: [
-                          Column(
-                            crossAxisAlignment: .start,
-                            children: [
-                              Text(title, style: AppTypography.cardTitle),
-                              if (duration.isNotEmpty) ...[
-                                const SizedBox(height: AppSpacings.s4),
-                                Text(
-                                  duration,
-                                  style: AppTypography.monospaceSmall.copyWith(
-                                    color: AppColors.textSecondary,
-                                  ),
-                                ),
-                              ],
-                            ],
-                          ),
-                          if (subtitle.isNotEmpty) ...[
-                            const SizedBox(height: AppSpacings.s8),
-                            Text(
-                              subtitle,
-                              style: AppTypography.cardSubtitle.copyWith(
-                                color: Theme.of(context).colorScheme.primary,
-                              ),
-                            ),
-                          ],
-                          const SizedBox(height: AppSpacings.s16),
-                          Text(description, style: AppTypography.bodySmall),
-                        ],
+                      _buildHeader(
+                        context: context,
+                        isFixedSize: height != null,
                       ),
                       if (tags != null &&
                           tags!.isNotEmpty &&
@@ -120,5 +92,58 @@ class ContentCard extends StatelessWidget {
         );
       },
     );
+  }
+
+  Widget _buildHeader({
+    required BuildContext context,
+    required bool isFixedSize,
+  }) {
+    final content = Column(
+      crossAxisAlignment: .start,
+      mainAxisSize: .min,
+      children: [
+        Column(
+          crossAxisAlignment: .start,
+          children: [
+            Text(title, style: AppTypography.cardTitle),
+            if (duration.isNotEmpty) ...[
+              const SizedBox(height: AppSpacings.s4),
+              Text(
+                duration,
+                style: AppTypography.monospaceSmall.copyWith(
+                  color: AppColors.textSecondary,
+                ),
+              ),
+            ],
+          ],
+        ),
+        if (subtitle.isNotEmpty) ...[
+          const SizedBox(height: AppSpacings.s8),
+          Text(
+            subtitle,
+            style: AppTypography.cardSubtitle.copyWith(
+              color: Theme.of(context).colorScheme.primary,
+            ),
+          ),
+        ],
+        const SizedBox(height: AppSpacings.s16),
+        if (isFixedSize)
+          Flexible(
+            child: Text(
+              description,
+              style: AppTypography.bodySmall,
+              overflow: .ellipsis,
+              maxLines: 10,
+            ),
+          )
+        else
+          Text(description, style: AppTypography.bodySmall),
+      ],
+    );
+
+    if (isFixedSize) {
+      return Expanded(child: content);
+    }
+    return content;
   }
 }
