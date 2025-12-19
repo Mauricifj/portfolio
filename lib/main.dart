@@ -2,9 +2,10 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:meta_seo/meta_seo.dart';
 
+import 'src/config/configure_non_web.dart'
+    if (dart.library.html) 'src/config/configure_web.dart';
 import 'src/design_system/design_system.dart';
 import 'src/l10n/app_localizations.dart';
 import 'src/models/models.dart';
@@ -12,7 +13,7 @@ import 'src/pages/pages.dart';
 import 'src/providers/providers.dart';
 
 void main() {
-  usePathUrlStrategy();
+  configureApp();
   if (kIsWeb) {
     MetaSEO().config();
   }
