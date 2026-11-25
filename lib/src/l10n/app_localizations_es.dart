@@ -136,6 +136,6 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String footer_copyright(String year) {
-    return '© $year Mauricifj. Todos los derechos reservados.';
+    return '© $year MAURICIFJ LTDA. Todos los derechos reservados.';
   }
 }

@@ -347,7 +347,7 @@ abstract class AppLocalizations {
   /// No description provided for @footer_copyright.
   ///
   /// In en, this message translates to:
-  /// **'© {year} Mauricifj. All rights reserved.'**
+  /// **'© {year} MAURICIFJ LTDA. All rights reserved.'**
   String footer_copyright(String year);
 }
 
